@@ -26,15 +26,15 @@
             <div id="header">
                 <a href="index.html"><img src="img/uplogo.jpg" alt="Moore's Bed and Breakfast Logo" id="logo" /></a>
                 <nav>
-                    <ul>
-                        <li>@Html.ActionLink("Index","Index")</li>
+                    <ul> <!--               controller on the left, text on the right-->
+                        <li>@Html.ActionLink("Index","HOME")</li>
                     </ul>
                     <ul>
                         <li>
                             <a href='#'>ABOUT</a>
                             <ul>
                                 
-                                    <li><a href="meetyourhost.html">Your Host</a></li>
+                                    <li>@Html.ActionLink("MeetYourHost","Meet Your Host")</li>
                                 <li>
                                 <li>@Html.ActionLink("Reviews", "Reviews")</li>
 </ul>

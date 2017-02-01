@@ -7,13 +7,12 @@
 
 <html>
 <head>
-
-    <meta charset="utf-08" name="viewport" content="width=device-width" />
-    <title>Moore's B&amp;B Reviews</title>
+    <meta charset="utf-8" name="viewport" content="width=device-width" />
+    <title>Moore's B&amp;B Meet Gillian Moore</title>
     <!--[if lt IE 9]>
         <script src="
-            http://html5shim.googlecode.com/svn/trunk/html5.js">
-        </script>
+        http://html5shim.googlecode.com/svn/trunk/html5.js">
+    </script>
     <![endif]-->
     <link href="~/Content/reset.css" rel="stylesheet">
     <link href="~/Content/style.css" rel="stylesheet">
@@ -21,7 +20,6 @@
 </head>
 <body>
     <div id="wraper">
-
         <header>
             <div id="header">
                 <a href="index.html"><img src="img/uplogo.jpg" alt="Moore's Bed and Breakfast Logo" id="logo" /></a>
@@ -33,8 +31,8 @@
                         <li>
                             <a href='#'>ABOUT</a>
                             <ul>
-                                <li>@Html.ActionLink("MeetYourHost","Meet your Host")</li>
-                                <li>@Html.Action("Reviews","Reviews")</li>
+                                <li>@Html.ActionLink("MeetYourHost", "Meet Your Host")</li>
+                                <li>@Html.ActionLink("Reviews","Reviews")</li>
                             </ul>
                         </li>
                     </ul>
@@ -42,7 +40,8 @@
                         <li>
                             <a href='#'>ROOMS</a>
                             <ul>
-                                <li><a href="suites.html">Suites</a></li>
+                                <li>@Html.ActionLink("Suites","Suites")</li>
+                                <li>@Html.ActionLink("BookARoom", "Book a Suite")</li>
                                 <li><a href="bookaroom.html">Book a Suite</a></li>
 
                             </ul>
@@ -60,94 +59,43 @@
                 </nav>
             </div>
         </header>
+
+
         <section>
+
             <div id="container">
-
-                <aside>
-                    <form class="reviewform">
-                        <h1>Give us your Review</h1>
-                        <ul>
-                            <li>
-                                <label for="fn">Name </label>
-                                <input type="text" name="fname" id="fn" required />
-                            </li>
-                            <li>
-                                <label for="bcd">Booking Code </label>
-                                <input type="text" id="bcd" required />
-                            <li>
-                                <label for="cm">Comments</label>
-                                <input type="text" id="cm" />
-                            </li>
-                            <li>
-                                <input type="submit" value="Review" />
-                            </li>
-
-                        </ul>
-                        <p>You will find your booking code on the receipt from your stay</p>
-                    </form>
-                </aside>
                 <article class="welcome">
-                    <h1>Reviews</h1>
+                    <h1>Meet Gillian Moore</h1>
 
-                    Tom G.
-                    <blockquote>
-                        <p>
-                            I loved this place and the people who run it. Gillian and her husband are
-                            the most incredible people with the most clean place I've stayed in.
-                            The full Irish Breakfast is to die for and will keep you full all day long.
-                            I stayed 3 nights, but wish I stayed longer. The bus stop is one block from their place
-                            (bus #404 to and from city center) and only costs 2euro and 10cents. It takes less than
-                            30 minutes to get either direction. You currently catch bus 404 in city center at stop #5
-                            (but that occasionally changes). Everyone is friendly!!! Gillian will even setup tour
-                            excursions and you are picked up directly in front of the B&amp;B. I went to the Cliffs
-                            of Moher for only 22euro and it was an all day event worth every bit you pay.
-                        </p>
-                    </blockquote>
-
-                    Mary Waters
-                    <blockquote>
-                        <p>
-                            From the moment we arrived to a very warm welcome from Gillian it was apparent that this was a
-                            superior accommodation. Excellent facilities, extremely clean and a superb breakfast.
-                            So many little extra finishing touches that really set the standard as to how a B&amp;B should be run.
-                            Thank you Gillian.
-                        </p>
-                    </blockquote>
-
-
-                    John Mc Millan
-                    <blockquote>
-                        <p>
-                            Our hostess Nora was lovely and friendly and she keeps her B&amp;B sparkling clean.
-                            We stayed for two nights and I was really impressed how lovely she had freshened our room after the first night.
-                            Our room was big enough, breakfast was very good (I enjoyed fruit salad very much in addition to full Irish
-                            breakfast) and wi-fi worked well.
-                            It takes some 20-30 mins to walk into the Galway city centre, but there are also busses, if weather is bad.
-                            Parking in the front yard felt really safe.
-                        </p>
-                    </blockquote>
-
-                    Sandy
-                    <blockquote>
-                        <p>
-                            Great location in walking distance to city (about half hour), lovely room- clean and bright,
-                            helpful host, wonderful breakfast- cereal, fruit, yogurt, brown bread toast. WIFI in room. Excellent overall
-                            B&amp;B
-                        </p>
-                    </blockquote>
-
-                    Paul F.
-                    <blockquote>
-                        <p>
-                            Because of work, I have stayed in a lot of B&amp;Bs in Galway over the past two years and Moore's BnB
-                            was definitely one of the best. The bedroom and ensuite were spotlessly clean, the bed was very comfortable and,
-                            although I had to leave early the next morning, Nora got up early to ensure that I had a delicious breakfast before
-                            I left. Overall a very pleasant stay and great value for money.
-                        </p>
-                    </blockquote>
-
+                    <p class="p">
+                        Gillian Moore is the owner of a unique Bed & Breakfast business located on the west coast of
+                        Ireland in Galway city. Gillian’s business is a family run B &amp;B,
+                        in operation for the past 20 years and offers
+                        spectacular views over Galway Bay.<img src="img/gillianm.jpg" alt="The host Gillian Moore" class="pic" />
+                        During this time, business has come from word of mouth.
+                    </p>
+                    <p class="p">
+                        The Moore's House has been run by the family and the family-run
+                        atmosphere is what we hope will make you feel so welcome.
+                    </p>
+                    <p class="p">
+                        Acquired by Gillian Moore and her husband in 1995, both of whom left management jobs at Marks
+                        and Spencer to purchase the Hotel, the Jesmond doubled as a family home in the early years
+                        where they raised their two sons Glyn and James from the ages of 5 and 3. Along with the
+                        family’s Old English sheepdog Ben, many happy years were spent here building up the reputation
+                        of the business as well as raising two young boys.
+                    </p>
+                    <p class="p">
+                        Through the years both sons worked as part-time cleaners (once they were old enough!),
+                        helped to cook and serve breakfast and worked on reception. James was the first to
+                        leave and acquire a University degree from Brighton University in Business Management,
+                        whilst Glyn remained at the Jesmond. James, who returns periodically, on one occasion
+                        to design and construct our beautiful garden, has a thirst for travel and other
+                        cultures, and now divides his time between the UK and travelling abroad. Glyn,
+                        now managing the hotel, has studied part-time and gained a degree in Film, and
+                        a Masters Degree in Building Surveying.
+                    </p>
                 </article>
-
 
                 <article class="welcome">
                     <h1>TripAdvisor Excellence Award</h1>
@@ -160,15 +108,18 @@
                     <img src="img/2015.jpg" alt="2015 TripAdvisor Exelence Award" />
                 </article>
                 <article class="welcome">
-                    <h3>Follow us on social media and show us your love!</h3>
+                    <p>Follow us on social media and show us your love!</p>
                     <a href='#' target="_blank"><img src="img/fbr.png" alt="Moore's B&amp;B Facebook page"></a>
                     <a href='#' target="_blank"><img src="img/twr.png" alt="Moore's B&amp;B Twitter page"></a>
                     <a href='#' target="_blank"><img src="img/tar.png" alt="Moore's B&amp;B TripAdvisor page"></a>
                     <a href='#' target="_blank"><img src="img/gpr.png" alt="Moore's B&amp;B Google+ page"></a>
                 </article>
+
             </div>
         </section>
+
         <div id="footer">
+
             <footer>
                 <div>
                     <img src="img/banlogo.jpg" alt="Moore's Bed and Breakfast Logo" id="logofoot" />
