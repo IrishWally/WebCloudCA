@@ -14,10 +14,14 @@ namespace WebCloudCA.Controllers
             return View();
         }
 
-       
-
         //Controller for the Reviews Page
         public ActionResult Reviews()
+        {
+            return View();
+        }
+
+        //controller for the MeetYourHost page
+        public ActionResult MeetYourHost()
         {
             return View();
         }
